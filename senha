@@ -1,0 +1,21 @@
+programa {
+  funcao inicio() {
+
+    caracter resposta
+    inteiro contador=0
+
+    escreva("Vou repetir esse código ate que você mande parar\n")
+    escreva("Deseja iniciar a brincadeira(S/N)")
+    leia(resposta)
+
+    enquanto(resposta=='s' ou resposta=='s'){
+      contador++
+      escreva("Estou repetindo esse código ", contador, " vezes!")
+      escreva("Deseja continuar repetindo (S/N)")
+      leia(resposta)
+    }
+
+    escreva("Estou fora da repetição, esse codigo foi repetido", contador, " vezes!")
+    
+  }
+}
